@@ -29,6 +29,9 @@ Esto correrá ambas aplicaciones (Express y CRA) al mismo tiempo.
 
 - CRA se encuentra en:
   `http://localhost:3000/`
+ y se ve de la siguiente forma:
+ ![Running app](/running-app.png)
+
 
 - El servidor se encuentra en:
   `http://localhost:5000/`
@@ -49,7 +52,7 @@ Se requiere implementar un carrito de compras simple, éste debe contar con las 
 - Una lista de ítems mostrando el catálogo de productos. (Product List Page)
 - Página de producto mostrando detalle de producto. (Product Display Page)
 - Un carrito de compras que tenga todos los ítems que serán comprados por el usuario. (Cart Page)
-- Espacio donde se muestre la sincronización de los ítems añadidos al carrito. (Mini cart)
+- Espacio donde se muestre la sincronización de los ítems añadidos al carrito. (Mini cart) ![mini cart example](/minicart-example.png)
 
 `Favor de no utilizar CSS o Component frameworks como Bootstrap, MUI, Semantic UI, etc. Parte importante de la prueba es ver tu uso de CSS.`
 

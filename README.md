@@ -2,15 +2,10 @@
 
 ### Por favor, empezar la prueba después de haber leído este documento completo.
 
-- [Prueba tecnica Front Ecomsur 2021](#prueba-tecnica-front-ecomsur-2021)
-    - [Por favor, empezar la prueba después de haber leído este documento completo.](#por-favor-empezar-la-prueba-después-de-haber-leído-este-documento-completo)
   - [Requerimientos mínimos](#requerimientos-mínimos)
   - [Instalar y Correr la aplicación](#instalar-y-correr-la-aplicación)
   - [Descripción de la prueba](#descripción-de-la-prueba)
-      - [Las reglas del negocio son:](#las-reglas-del-negocio-son)
-      - [Puntos extras:](#puntos-extras)
   - [Reglas de entrega](#reglas-de-entrega)
-  - [¡Mucho éxito! 💪](#mucho-éxito-)
 
 ## Requerimientos mínimos
 

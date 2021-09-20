@@ -13,7 +13,7 @@ Node 14.15.0
 
 ## Instalar y Correr la aplicación
 
-Instalar API:
+Instalar API y el CRA:
 
 1. En el directorio `root` correr:
    ` npm install`

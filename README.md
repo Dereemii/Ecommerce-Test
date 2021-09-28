@@ -54,7 +54,8 @@ Se requiere implementar un carrito de compras simple que traiga toda la info del
 - Un carrito de compras que tenga todos los ítems que serán comprados por el usuario. (Cart Page)
 - Espacio donde se muestre la sincronización de los ítems añadidos al carrito. (Mini cart) ![mini cart example](/minicart-example.png)
 
-`Favor de no utilizar CSS o Component frameworks como Bootstrap, MUI, Semantic UI, etc. Parte importante de la prueba es ver tu uso de CSS. Puedes instalar cualquier Libreria NPM que gustes para facilitar el desarrollo (Axios para llamadas al API, Modals, Transisiones, etc..)`
+`Favor de no utilizar "CSS frameworks" como Bootstrap, MUI, Semantic UI, etc. Parte importante de la prueba es ver tu uso de CSS. No es necesario que la prueba tenga un diseño muy complejo, estamos evaluando funcionalidad, no diseño ni uso de colores.`
+`Puedes instalar cualquier Libreria NPM que gustes para facilitar el desarrollo (Axios para llamadas al API, Modals, Transisiones, etc..)`
 
 #### Las reglas del negocio son:
 
@@ -68,6 +69,12 @@ Se requiere implementar un carrito de compras simple que traiga toda la info del
 - Mostrar el rating y número de reviews en el PLP y PDP
 - Usar Redux para mantener el estado global.
 - Mantener info de ítems en carrito al recargar la página
+
+#### Notas
+
+- Recuerda la filosofía "Mobile-First Responsive Design".
+- Piensa en otras tiendas en linea que hayas usado. El publico final no es necesariamente alguien muy tecnico
+- Si no utilizas el API local tu prueba será descartada.
 
 ## Reglas de entrega
 

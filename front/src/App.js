@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react'
 
 const App = () => {
-  // store response from server
+  // -------------------------------------------------
+  // DO NOT USE THE CODE BELOW FROM LINES 8 TO 18. THIS IS
+  // HERE TO MAKE SURE THAT THE EXPRESS SERVER IS RUNNING
+  // CORRECTLY. DELETE CODE WHEN COMPLETING YOUR TEST.
   const [response, setResponse] = useState('')
 
   // call server to see if its running
@@ -13,6 +16,7 @@ const App = () => {
     }
     getApiResponse()
   }, [])
+  // -------------------------------------------------
 
   return (
     <div style={{ textAlign: 'center' }}>

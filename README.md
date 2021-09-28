@@ -54,7 +54,7 @@ Se requiere implementar un carrito de compras simple que traiga toda la info del
 - Un carrito de compras que tenga todos los ítems que serán comprados por el usuario. (Cart Page)
 - Espacio donde se muestre la sincronización de los ítems añadidos al carrito. (Mini cart) ![mini cart example](/minicart-example.png)
 
-`Favor de no utilizar CSS o Component frameworks como Bootstrap, MUI, Semantic UI, etc. Parte importante de la prueba es ver tu uso de CSS. Puedes instalar cualquier Libreria NPM que gustes para facilitar el desarrollo (Modals, Tablas, etc..)`
+`Favor de no utilizar CSS o Component frameworks como Bootstrap, MUI, Semantic UI, etc. Parte importante de la prueba es ver tu uso de CSS. Puedes instalar cualquier Libreria NPM que gustes para facilitar el desarrollo (Axios para llamadas al API, Modals, Transisiones, etc..)`
 
 #### Las reglas del negocio son:
 

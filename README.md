@@ -15,8 +15,8 @@ Node 14.15.0
 
 Instalar API y el CRA:
 
-1. En el directorio `root` correr:
-   ` npm install`
+1. En la carpeta `root` de la aplicacion correr:
+   `npm install`
 2. Navega al directorio `front` y vuelve a correr el comando:
    `npm install`
 3. Regresa al directorio root.

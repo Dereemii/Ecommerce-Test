@@ -55,14 +55,14 @@ Se requiere implementar un carrito de compras simple que traiga toda la info del
 - Espacio donde se muestre la sincronización de los ítems añadidos al carrito. (Mini cart) ![mini cart example](/minicart-example.png)
 
 `Favor de no utilizar "CSS frameworks" como Bootstrap, MUI, Semantic UI, etc. Parte importante de la prueba es ver tu uso de CSS. No es necesario que la prueba tenga un diseño muy complejo, estamos evaluando funcionalidad, no diseño ni uso de colores.`
-`Puedes instalar cualquier Libreria NPM que gustes para facilitar el desarrollo (Axios para llamadas al API, Modals, Transisiones, etc..)`
+`Puedes instalar cualquier Libreria NPM que gustes para facilitar el desarrollo (Axios para llamadas al API, Modals, transiciones, etc..)`
 
 #### Las reglas del negocio son:
 
 - Cada ítem del catálogo debe tener un action button con el texto `Add item to cart`.
 - Si no hay stock el `action button` debe deshabilitarse
 - Cada ítem en el carro debe tener un `action button` para remover el ítem del carro.
-- La sincronización de los ítems se puede mostrar con textos o números.
+- Los items en el carrito se deben de agrupar mostrando cantidad de cada producto añadido.
 
 #### Puntos extras:
 
@@ -73,7 +73,7 @@ Se requiere implementar un carrito de compras simple que traiga toda la info del
 #### Notas
 
 - Recuerda la filosofía "Mobile-First Responsive Design".
-- Piensa en otras tiendas en linea que hayas usado. El publico final no es necesariamente alguien muy tecnico
+- Piensa en otras tiendas en linea que hayas usado. El publico final no es necesariamente alguien muy tecnico.
 - Si no utilizas el API local tu prueba será descartada.
 
 ## Reglas de entrega

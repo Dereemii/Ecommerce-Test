@@ -43,7 +43,7 @@ Esto correrá ambas aplicaciones (Express y CRA) al mismo tiempo.
   `http://localhost:5000/api/products/1`
 
 - Las imágenes se encuentran en:|
-  `http://localhost:5000/imagenes/{{nombre-de-la-imagen}}`
+  `http://localhost:5000/images/{{nombre-de-la-imagen}}`
 
 ## Descripción de la prueba
 

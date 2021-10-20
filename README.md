@@ -82,6 +82,6 @@ Se requiere implementar un carrito de compras simple que traiga toda la info del
 
 2. Es necesario que garantices que tu aplicación pueda correr en la máquina de otra persona.
 
-3. Sube tu respuesta a un repositorio en una cuenta tuya de GitHub, GitLab o BitBucket y da acceso a `kbarcelo@ecomsur.com` y posiblemente a otros correos que te pida RRHH
+3. Sube tu respuesta a un repositorio en una cuenta tuya de GitHub, GitLab o BitBucket y da acceso a `kbarcelo@ecomsur.com, fbailon@ecomsur.com, olepage@ecomsur.com`. *Acceso debe de ser enviado a los 3 correos.*
 
 ## ¡Mucho éxito! 💪

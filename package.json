@@ -12,11 +12,17 @@
   "author": "Ecomsur",
   "license": "ISC",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.6.2",
+    "axios": "^0.24.0",
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "react-redux": "^7.2.6"
   },
   "devDependencies": {
     "concurrently": "^6.2.1",
-    "nodemon": "^2.0.12"
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.4.1"
   }
 }

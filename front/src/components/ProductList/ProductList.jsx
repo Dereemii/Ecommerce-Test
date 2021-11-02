@@ -4,6 +4,10 @@ import { useEffect } from "react";
 import { fetchAllProducts } from '../../store/slices/products';
 import { useDispatch, useSelector } from 'react-redux';
 
+//Styles
+
+import './ProductList.css';
+
 const ProductList = () => {
 
     //calling products slice
@@ -17,19 +21,17 @@ const ProductList = () => {
 
     return (
         <>
-            <div>
+            <div className="productListContainer">
                 {
                     products.map((product, index) => (
-                        <div key={index}>
+                        <div className="cardList" key={index}>
                             <div className="card">
                                 <img src={`http://localhost:5000/${product.image}`} alt={product.name} />
                                 <div className="cardBody">
                                     <h5 className="cardBody_name">
                                         {product.name}
                                     </h5>
-                                    <p className="cardBody_description">
-                                        {product.description}
-                                    </p>
+
                                 </div>
                             </div>
                         </div>

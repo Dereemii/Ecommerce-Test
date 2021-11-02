@@ -1,0 +1,11 @@
+.productListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.cardList {
+  border: 1px solid black;
+  width: 250px;
+  margin: 1rem;
+}

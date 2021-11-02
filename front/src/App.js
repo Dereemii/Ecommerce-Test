@@ -1,33 +1,33 @@
-import React, { useEffect, useState } from 'react'
-import ProductList from './components/ProductList';
+
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import ProductList from './components/ProductList/ProductList';
+import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
+import WildCard from "./components/WildCard/WildCard";
 
 //redux
 import { Provider } from 'react-redux';
 import { store } from './store/store';
 
 const App = () => {
-  // -------------------------------------------------
-  // DO NOT USE THE CODE BELOW FROM LINES 8 TO 18. THIS IS
-  // HERE TO MAKE SURE THAT THE EXPRESS SERVER IS RUNNING
-  // CORRECTLY. DELETE CODE WHEN COMPLETING YOUR TEST.
-  const [response, setResponse] = useState('')
 
-  // call server to see if its running
-  useEffect(() => {
-    const getApiResponse = () => {
-      fetch('http://localhost:5000/')
-        .then((res) => res.text())
-        .then((res) => setResponse(res))
-    }
-    getApiResponse()
-  }, [])
-  // -------------------------------------------------
 
   return (
     <>
-      {response}
+
       <Provider store={store}>
-        <ProductList />
+        <BrowserRouter>
+          <NavBar />
+          <Switch>
+            <Route exact path="/">
+              <ProductList />
+            </Route>
+            <Route path="/*">
+              <WildCard />
+            </Route>
+          </Switch>
+          <Footer />
+        </BrowserRouter>
       </Provider>
     </>
 

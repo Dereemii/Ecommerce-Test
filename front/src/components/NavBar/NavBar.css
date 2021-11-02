@@ -1,0 +1,22 @@
+li {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+nav ul div {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul div:first-child li {
+  padding: 0 2rem;
+}
+
+nav ul div:nth-child(2) li {
+  padding: 0 1.5rem;
+}

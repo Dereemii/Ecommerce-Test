@@ -31,7 +31,6 @@ const ProductList = () => {
                                     <h5 className="cardBody_name">
                                         {product.name}
                                     </h5>
-
                                 </div>
                             </div>
                         </div>
